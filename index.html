@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="timer-container">
+        <div id="timer">5:00</div>
+    </div>
+        <div class="quiz-container" id="quiz-container">
+            <div class="question-container" id="page1">
+                <div class="question" id="question1">
+                    <p>1. What is the correct syntax to print a message in Python?</p>
+                    <input type="radio" name="question1" value="echo 'Hello, World!'"> echo 'Hello, World!'<br>
+                    <input type="radio" name="question1" value="console.log('Hello, World!')"> console.log('Hello, World!')<br>
+                    <input type="radio" name="question1" value="print('Hello, World!')"> print('Hello, World!')<br>
+                    <input type="radio" name="question1" value="printf('Hello, World!')"> printf('Hello, World!')<br>
+                </div>
+                <div class="question" id="question2">
+                    <p>2. Which of the following are valid variable names in JavaScript? (Select all that apply)</p>
+                    <input type="checkbox" name="question2" value="2names"> 2names<br>
+                    <input type="checkbox" name="question2" value="_name"> _name<br>
+                    <input type="checkbox" name="question2" value="first-name"> first-name<br>
+                    <input type="checkbox" name="question2" value="first_name"> first_name<br>
+                </div>
+                <div class="question" id="question3">
+                    <p>3. What is the output of 2 + 2 in JavaScript?</p>
+                    <input type="text" name="question3"><br>
+                </div>
+                <div class="question" id="question4">
+                    <p>4. Which language is primarily used for web development?</p>
+                    <select name="question4">
+                        <option value="Python">Python</option>
+                        <option value="Java">Java</option>
+                        <option value="HTML">HTML</option>
+                        <option value="C++">C++</option>
+                    </select>
+                </div>
+                <div class="question" id="question5">
+                    <p>5. Which HTML tag is used to define an unordered list?</p>
+                    <input type="radio" name="question5" value="<ol>"> &lt;ol&gt;<br>
+                    <input type="radio" name="question5" value="<ul>"> &lt;ul&gt;<br>
+                    <input type="radio" name="question5" value="<li>"> &lt;li&gt;<br>
+                    <input type="radio" name="question5" value="<list>"> &lt;list&gt;<br>
+                </div>
+            </div>
+        
+            <div class="question-container" id="page2">
+                <div class="question" id="question6">
+                    <p>6. Which of the following are JavaScript data types?</p>
+                    <input type="radio" name="question6" value="String"> String<br>
+                    <input type="radio" name="question6" value="Number"> Number<br>
+                    <input type="radio" name="question6" value="Boolean"> Boolean<br>
+                    <input type="radio" name="question6" value="All of the above"> All of the above<br>
+                </div>
+                <div class="question" id="question7">
+                    <p>7. What does CSS stand for?</p>
+                    <input type="radio" name="question7" value="Cascading Style Sheets"> Cascading Style Sheets<br>
+                    <input type="radio" name="question7" value="Colorful Style Sheets"> Colorful Style Sheets<br>
+                    <input type="radio" name="question7" value="Creative Style Sheets"> Creative Style Sheets<br>
+                    <input type="radio" name="question7" value="Computer Style Sheets"> Computer Style Sheets<br>
+                </div>
+                <div class="question" id="question8">
+                    <p>8. Which of the following are semantic HTML elements? (Select all that apply)</p>
+                    <input type="checkbox" name="question8" value="<div>"> &lt;div&gt;<br>
+                    <input type="checkbox" name="question8" value="<header>"> &lt;header&gt;<br>
+                    <input type="checkbox" name="question8" value="<span>"> &lt;span&gt;<br>
+                    <input type="checkbox" name="question8" value="<footer>"> &lt;footer&gt;<br>
+                </div>
+                <div class="question" id="question9">
+                    <p>9. What is the output of 'Hello' + ' ' + 'World' in JavaScript?</p>
+                    <input type="text" name="question9"><br>
+                </div>
+                <div class="question" id="question10">
+                    <p>10. Which property is used to change the background color in CSS?</p>
+                    <input type="radio" name="question10" value="color"> color<br>
+                    <input type="radio" name="question10" value="bgcolor"> bgcolor<br>
+                    <input type="radio" name="question10" value="background-color"> background-color<br>
+                    <input type="radio" name="question10" value="background"> background<br>
+                </div>
+            </div>
+        
+            <div class="question-container" id="page3">
+                <div class="question" id="question11">
+                    <p>11. Which of the following is a JavaScript framework?</p>
+                    <input type="radio" name="question11" value="React"> React<br>
+                    <input type="radio" name="question11" value="Django"> Django<br>
+                    <input type="radio" name="question11" value="Flask"> Flask<br>
+                    <input type="radio" name="question11" value="Ruby on Rails"> Ruby on Rails<br>
+                </div>
+                <div class="question" id="question12">
+                    <p>12. How do you add a comment in a CSS file?</p>
+                    <input type="text" name="question12"><br>
+                </div>
+                <div class="question" id="question13">
+                    <p>13. Which of the following is a block-level element in HTML?</p>
+                    <input type="radio" name="question13" value="<span>"> &lt;span&gt;<br>
+                    <input type="radio" name="question13" value="<div>"> &lt;div&gt;<br>
+                    <input type="radio" name="question13" value="<a>"> &lt;a&gt;<br>
+                    <input type="radio" name="question13" value="<img>"> &lt;img&gt;<br>
+                </div>
+                <div class="question" id="question14">
+                    <p>14. What does SQL stand for?</p>
+                    <input type="radio" name="question14" value="Structured Query Language"> Structured Query Language<br>
+                    <input type="radio" name="question14" value="Simple Query Language"> Simple Query Language<br>
+                    <input type="radio" name="question14" value="Structured Question Language"> Structured Question Language<br>
+                    <input type="radio" name="question14" value="Short Query Language"> Short Query Language<br>
+                </div>
+                <div class="question" id="question15">
+                    <p>15. Which of the following are CSS frameworks?</p>
+                    <input type="radio" name="question15" value="Bootstrap"> Bootstrap<br>
+                    <input type="radio" name="question15" value="Foundation"> Foundation<br>
+                    <input type="radio" name="question15" value="Bulma"> Bulma<br>
+                    <input type="radio" name="question15" value="All of the above"> All of the above<br>
+                </div>
+            </div>
+        
+            <div class="question-container" id="page4">
+                <div class="question" id="question16">
+                    <p>16. What is the purpose of the 'alt' attribute in an &lt;img&gt; tag?</p>
+                    <input type="radio" name="question16" value="To specify the URL of the image"> To specify the URL of the image<br>
+                    <input type="radio" name="question16" value="To specify alternate text for the image"> To specify alternate text for the image<br>
+                    <input type="radio" name="question16" value="To style the image"> To style the image<br>
+                    <input type="radio" name="question16" value="To specify the width of the image"> To specify the width of the image<br>
+                </div>
+                <div class="question" id="question17">
+                    <p>17. Which of the following are JavaScript loop structures?</p>
+                    <input type="radio" name="question17" value="for"> for<br>
+                    <input type="radio" name="question17" value="foreach"> foreach<br>
+                    <input type="radio" name="question17" value="while"> while<br>
+                    <input type="radio" name="question17" value="All of the above"> All of the above<br>
+                </div>
+                <div class="question" id="question18">
+                    <p>18. What does API stand for?</p>
+                    <input type="radio" name="question18" value="Automated Programming Interface"> Automated Programming Interface<br>
+                    <input type="radio" name="question18" value="Application Programming Interface"> Application Programming Interface<br>
+                    <input type="radio" name="question18" value="Automated Programming Instruction"> Automated Programming Instruction<br>
+                    <input type="radio" name="question18" value="Application Programming Instruction"> Application Programming Instruction<br>
+                </div>
+                <div class="question" id="question19">
+                    <p>19. How do you declare a variable in Python?</p>
+                    <select name="question19">
+                        <option value="var x">var x</option>
+                        <option value="x = 5">x = 5</option>
+                        <option value="int x">int x</option>
+                        <option value="declare x">declare x</option>
+                    </select>
+                </div>
+                <div class="question" id="question20">
+                    <p>20. Which of the following is NOT a valid color in CSS?</p>
+                    <input type="radio" name="question20" value="blue"> blue<br>
+                    <input type="radio" name="question20" value="rgb(255, 0, 0)"> rgb(255, 0, 0)<br>
+                    <input type="radio" name="question20" value="#ff0000"> #ff0000<br>
+                    <input type="radio" name="question20" value="red"> red<br>
+                </div>
+            </div>
+        
+        <div class="navigation">
+            <button id="prevBtn" onclick="changePage(-1)">Previous</button>
+            <button id="nextBtn" onclick="changePage(1)">Next</button>
+            <button id="submitBtn" onclick="submitQuiz()">Submit</button>
+        </div>
+    </div>
+
+    <div class="score-container" id="score-container">
+        <p id="score-message"></p>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
